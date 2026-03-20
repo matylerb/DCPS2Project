@@ -1,0 +1,962 @@
+[
+  {
+    "route_short_name":"S4",
+    "route_long_name":"Liffey Valley - UCD",
+    "total_cancelled_trips":856,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"N6",
+    "route_long_name":"Finglas Village - Naomh Barróg GAA",
+    "total_cancelled_trips":720,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"73",
+    "route_long_name":"Kilnamanagh Road - Griffith Avenue East",
+    "total_cancelled_trips":696,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"S6",
+    "route_long_name":"The Square - Blackrock Station",
+    "total_cancelled_trips":580,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"W2",
+    "route_long_name":"The Square - Liffey Valley SC",
+    "total_cancelled_trips":568,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"E1",
+    "route_long_name":"Ballywaltrim - Northwood",
+    "total_cancelled_trips":546,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"E2",
+    "route_long_name":"Dun Laoghaire - Harristown",
+    "total_cancelled_trips":502,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"S8",
+    "route_long_name":"Kingswood Avenue - Dun Laoghaire Stn",
+    "total_cancelled_trips":472,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"15",
+    "route_long_name":"Ballycullen Road - Clongriffin",
+    "total_cancelled_trips":466,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"39A",
+    "route_long_name":"Ongar - UCD Belfield",
+    "total_cancelled_trips":458,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"N2",
+    "route_long_name":"Clontarf Station - Heuston Train Stn",
+    "total_cancelled_trips":456,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"N4",
+    "route_long_name":"Blanchardstown - Point Village",
+    "total_cancelled_trips":404,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"27",
+    "route_long_name":"Jobstown - Clare Hall",
+    "total_cancelled_trips":396,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"45A",
+    "route_long_name":"Kilmacanogue - Dun Laoghaire",
+    "total_cancelled_trips":368,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"W4",
+    "route_long_name":"The Square - Blanchardstown SC",
+    "total_cancelled_trips":368,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"14",
+    "route_long_name":"Dundrum Luas Stn - Ardlea Rd (Beaumont)",
+    "total_cancelled_trips":356,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"80",
+    "route_long_name":"Liffey Valley SC - Palmerston Park",
+    "total_cancelled_trips":352,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"F1",
+    "route_long_name":"The Square Tallaght - IKEA",
+    "total_cancelled_trips":342,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"16",
+    "route_long_name":"Ballinteer - Dublin Airport",
+    "total_cancelled_trips":340,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"G1",
+    "route_long_name":"Red Cow LUAS - Spencer Dock",
+    "total_cancelled_trips":330,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"G2",
+    "route_long_name":"Liffey Valley SC - Spencer Dock",
+    "total_cancelled_trips":326,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"13",
+    "route_long_name":"Grange Castle - Harristown",
+    "total_cancelled_trips":318,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"4",
+    "route_long_name":"Monkstown Avenue - Heuston Station",
+    "total_cancelled_trips":316,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"1",
+    "route_long_name":"Sandymount - O'Connell Street - Santry",
+    "total_cancelled_trips":316,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L2",
+    "route_long_name":"Sea Road, Newcastle - Bray Station",
+    "total_cancelled_trips":312,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"130",
+    "route_long_name":"Talbot Street - Castle Avenue",
+    "total_cancelled_trips":310,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"F2",
+    "route_long_name":"Charlestown SC - Rossmore",
+    "total_cancelled_trips":306,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"102",
+    "route_long_name":"Dublin Airport - Sutton DART",
+    "total_cancelled_trips":296,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L1",
+    "route_long_name":"Newcastle Hospital - Bray Station",
+    "total_cancelled_trips":292,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L3",
+    "route_long_name":"Glenbrook Park - The Nurseries",
+    "total_cancelled_trips":292,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"F3",
+    "route_long_name":"Charlestown SC - Limekiln Avenue",
+    "total_cancelled_trips":290,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"H1",
+    "route_long_name":"Baldoyle - Lower Abbey Street",
+    "total_cancelled_trips":290,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"W6",
+    "route_long_name":"Community College - The Square",
+    "total_cancelled_trips":288,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L26",
+    "route_long_name":"Blackrock Station - Kilternan Village",
+    "total_cancelled_trips":288,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L25",
+    "route_long_name":"Dun Laoghaire - Dundrum Town Centre",
+    "total_cancelled_trips":288,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L27",
+    "route_long_name":"Dun Laoghaire Stn - Leopardstown Valley",
+    "total_cancelled_trips":288,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"S2",
+    "route_long_name":"Sean Moore Road - Heuston Station",
+    "total_cancelled_trips":284,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"15B",
+    "route_long_name":"Merrion Square - Stocking Avenue",
+    "total_cancelled_trips":264,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"19",
+    "route_long_name":"Parnell Square West - Dublin Airport",
+    "total_cancelled_trips":262,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"41",
+    "route_long_name":"Swords Manor - Lower Abbey Street",
+    "total_cancelled_trips":262,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"33B",
+    "route_long_name":"Swords - Portrane",
+    "total_cancelled_trips":244,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"24",
+    "route_long_name":"Merrion Square - Dublin Airport",
+    "total_cancelled_trips":236,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"C2",
+    "route_long_name":"Adamstown Stn - Sandymount",
+    "total_cancelled_trips":236,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"122",
+    "route_long_name":"Drimnagh - Ashington",
+    "total_cancelled_trips":236,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"C1",
+    "route_long_name":"Adamstown Stn - Sandymount",
+    "total_cancelled_trips":236,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"82",
+    "route_long_name":"Irishtown - Kiltipper",
+    "total_cancelled_trips":228,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"37",
+    "route_long_name":"Blanchardstown Shopping Centre - Wilton Terrace",
+    "total_cancelled_trips":226,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"27B",
+    "route_long_name":"Eden Quay - Harristown",
+    "total_cancelled_trips":222,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"77A",
+    "route_long_name":"Citywest - Ringsend",
+    "total_cancelled_trips":216,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"23",
+    "route_long_name":"Merrion Square - Charlestown SC",
+    "total_cancelled_trips":216,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"33A",
+    "route_long_name":"Dublin Airport - Balbriggan",
+    "total_cancelled_trips":204,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"150",
+    "route_long_name":"Rossmore - Hawkins Street",
+    "total_cancelled_trips":204,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"15A",
+    "route_long_name":"Merrion Square - Limekiln Avenue",
+    "total_cancelled_trips":202,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"151",
+    "route_long_name":"Foxborough (Balgaddy Rd) - Docklands (East Rd)",
+    "total_cancelled_trips":200,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L12",
+    "route_long_name":"Ballywaltrim - Bray Dart Station",
+    "total_cancelled_trips":192,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"41C",
+    "route_long_name":"Swords Manor Via River Valley - Lower Abbey St",
+    "total_cancelled_trips":188,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"40D",
+    "route_long_name":"Tyrrelstown - Parnell Street",
+    "total_cancelled_trips":187,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"11",
+    "route_long_name":"Phoenix Park - Sandyford Business District",
+    "total_cancelled_trips":178,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"42",
+    "route_long_name":"Sand's Hotel Portmarnock - Eden Quay",
+    "total_cancelled_trips":168,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"120",
+    "route_long_name":"Ashtown Station - Parnell St",
+    "total_cancelled_trips":168,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"C4",
+    "route_long_name":"Maynooth - Ringsend",
+    "total_cancelled_trips":166,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"C3",
+    "route_long_name":"Maynooth - Ringsend",
+    "total_cancelled_trips":166,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"39",
+    "route_long_name":"Ongar - Burlington Rd",
+    "total_cancelled_trips":158,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"38",
+    "route_long_name":"Damastown - Burlington Road",
+    "total_cancelled_trips":152,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"238",
+    "route_long_name":"Tyrrelstown - Mulhuddart",
+    "total_cancelled_trips":152,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"74",
+    "route_long_name":"Dundrum Luas - Eden Quay",
+    "total_cancelled_trips":150,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"7",
+    "route_long_name":"Brides Glen Luas - Mountjoy Square",
+    "total_cancelled_trips":148,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"111",
+    "route_long_name":"Brides Glen - Kilbogget Pk",
+    "total_cancelled_trips":148,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L54",
+    "route_long_name":"River Forest - Red Cow Luas",
+    "total_cancelled_trips":146,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"H2",
+    "route_long_name":"Malahide - Lower Abbey Street",
+    "total_cancelled_trips":144,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L52",
+    "route_long_name":"Blanchardstown SC - Adamstown Station",
+    "total_cancelled_trips":144,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L51",
+    "route_long_name":"Liffey Valley SC - Adamstown Station",
+    "total_cancelled_trips":144,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"H3",
+    "route_long_name":"Howth Summit - Lower Abbey Street",
+    "total_cancelled_trips":144,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L15",
+    "route_long_name":"Bray Station - Enniskerry",
+    "total_cancelled_trips":144,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"7A",
+    "route_long_name":"Loughlinstown - Mountjoy Sq",
+    "total_cancelled_trips":144,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L59",
+    "route_long_name":"River Forest - Celbridge - Hazelhatch",
+    "total_cancelled_trips":144,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"40E",
+    "route_long_name":"Broombridge Luas - Tyrrelstown",
+    "total_cancelled_trips":141,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"59",
+    "route_long_name":"Dun Laoghaire - Killiney Hill Park",
+    "total_cancelled_trips":140,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"L53",
+    "route_long_name":"Liffey Valley - Adamstown Stn",
+    "total_cancelled_trips":140,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L14",
+    "route_long_name":"Southern Cross Road - Palermo",
+    "total_cancelled_trips":140,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"197",
+    "route_long_name":"Airside Ind. Estate, stop 7210 - Ashbourne Retail Pk, stop 101001",
+    "total_cancelled_trips":136,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"270",
+    "route_long_name":"Dunboyne - Blanchardstown",
+    "total_cancelled_trips":136,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"114",
+    "route_long_name":"Ticknock - Blackrock",
+    "total_cancelled_trips":136,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"38A",
+    "route_long_name":"Damastown via Navan Rd - Burlington Rd",
+    "total_cancelled_trips":130,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"43",
+    "route_long_name":"Talbot Street - Swords Business Park",
+    "total_cancelled_trips":126,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"104",
+    "route_long_name":"Clontarf Station - DCU (The Helix)",
+    "total_cancelled_trips":120,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"220",
+    "route_long_name":"DCU (The Helix) - Lady's Well Road",
+    "total_cancelled_trips":120,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"70",
+    "route_long_name":"Dunboyne - Burlington Rd",
+    "total_cancelled_trips":114,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L55",
+    "route_long_name":"Hollyville Lawn - Glenaulin",
+    "total_cancelled_trips":112,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"27A",
+    "route_long_name":"Blunden Drive - Eden Quay",
+    "total_cancelled_trips":112,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"33",
+    "route_long_name":"Balbriggan - Lower Abbey St",
+    "total_cancelled_trips":94,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"60",
+    "route_long_name":"Forbes Street - Tallaght",
+    "total_cancelled_trips":80,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"6",
+    "route_long_name":"Howth Dart Stn - Lower Abbey Street",
+    "total_cancelled_trips":80,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"47",
+    "route_long_name":"Poolbeg Street - Belarmine",
+    "total_cancelled_trips":80,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"65B",
+    "route_long_name":"Poolbeg Street - Citywest",
+    "total_cancelled_trips":78,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L58",
+    "route_long_name":"River Forest - Castletown - Hazelhatch Stn",
+    "total_cancelled_trips":78,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"52",
+    "route_long_name":"Intel - Ringsend",
+    "total_cancelled_trips":76,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"161",
+    "route_long_name":"Rockbrook - Dundrum",
+    "total_cancelled_trips":76,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"69",
+    "route_long_name":"Rathcoole - Hawkins St",
+    "total_cancelled_trips":76,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"44",
+    "route_long_name":"Enniskerry - DCU",
+    "total_cancelled_trips":76,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"68",
+    "route_long_name":"Newcastle \/ Greenogue Business Pk - Hawkins St",
+    "total_cancelled_trips":70,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"65",
+    "route_long_name":"Poolbeg Street - Blessington\/Ballymore",
+    "total_cancelled_trips":70,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"L89",
+    "route_long_name":"Broombridge Luas - Toberburr",
+    "total_cancelled_trips":68,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"56A",
+    "route_long_name":"Tallaght - Ringsend Rd",
+    "total_cancelled_trips":60,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"53",
+    "route_long_name":"Dublin Ferryport - Talbot St",
+    "total_cancelled_trips":60,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"11B",
+    "route_long_name":"Phoenix Park - Donnybrook",
+    "total_cancelled_trips":52,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"99",
+    "route_long_name":"Phoenix Park - Phoenix Park",
+    "total_cancelled_trips":38,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"38B",
+    "route_long_name":"Damastown via Ballycoolin Ind Est - Burlington Rd",
+    "total_cancelled_trips":26,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"236",
+    "route_long_name":"Blanchardstown - IBM Campus",
+    "total_cancelled_trips":24,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"236A",
+    "route_long_name":"Blanchardstown - IBM Campus",
+    "total_cancelled_trips":24,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"44B",
+    "route_long_name":"Glencullen - Dundrum Luas",
+    "total_cancelled_trips":20,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"33X",
+    "route_long_name":"Skerries - Custom House Quay \/ St Stephen Green",
+    "total_cancelled_trips":20,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X1",
+    "route_long_name":"Kilcoole - Hawkins Street",
+    "total_cancelled_trips":20,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"41X",
+    "route_long_name":"Swords - UCD Belfield",
+    "total_cancelled_trips":20,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"C5",
+    "route_long_name":"Maynooth - Ringsend Night Service",
+    "total_cancelled_trips":20,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"C6",
+    "route_long_name":"Maynooth - Celbridge - Ringsend Night Service",
+    "total_cancelled_trips":20,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"41B",
+    "route_long_name":"Rolestown - Lower Abbey Street",
+    "total_cancelled_trips":18,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X28",
+    "route_long_name":"Salesian College - Celbridge Main St - UCD",
+    "total_cancelled_trips":18,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X25",
+    "route_long_name":"Maynooth - Easton Rd - UCD",
+    "total_cancelled_trips":18,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"7B",
+    "route_long_name":"Shankill - Mountjoy Square",
+    "total_cancelled_trips":18,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"142",
+    "route_long_name":"Portmarnock - UCD (Belfield)",
+    "total_cancelled_trips":18,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"P29",
+    "route_long_name":"Adamstown Stn - Ringsend",
+    "total_cancelled_trips":16,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X27",
+    "route_long_name":"Salesian College - Aghards Rd - UCD",
+    "total_cancelled_trips":16,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X2",
+    "route_long_name":"Newcastle - Hawkins Street",
+    "total_cancelled_trips":16,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"102P",
+    "route_long_name":"Swords - Portmarnock",
+    "total_cancelled_trips":16,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"16D",
+    "route_long_name":"Airport - Beaumont Village - Ballinteer not",
+    "total_cancelled_trips":12,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X30",
+    "route_long_name":"Dodsboro - UCD",
+    "total_cancelled_trips":12,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"102T",
+    "route_long_name":"Swords - Sutton",
+    "total_cancelled_trips":12,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"X31",
+    "route_long_name":"River Forest - UCD Belfield",
+    "total_cancelled_trips":12,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"68A",
+    "route_long_name":"Hawkins Street - Bulfin Road",
+    "total_cancelled_trips":10,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"220A",
+    "route_long_name":"DCU (The Helix) - Lady's Well Road",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"220T",
+    "route_long_name":"Collins Avenue West - Finglas Garda Stn",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"45B",
+    "route_long_name":"Kilmacanogue - Dun Laoghaire",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"102C",
+    "route_long_name":"Balgriffin - Sutton",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"236T",
+    "route_long_name":"Scoil Oilibheir - Tyrrelstown",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"270T",
+    "route_long_name":"Castaheany Estate - Castleknock Community College",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"33T",
+    "route_long_name":"Skerries - Donabate",
+    "total_cancelled_trips":8,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"39X",
+    "route_long_name":"Ongar - Burlington Road",
+    "total_cancelled_trips":8,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"41D",
+    "route_long_name":"Swords Business Park - Lwr Abbey St",
+    "total_cancelled_trips":8,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X32",
+    "route_long_name":"Kildare Innovation Campus - UCD Belfield",
+    "total_cancelled_trips":8,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"X26",
+    "route_long_name":"Maynooth - Louisa Bridge - Leeson Street Lower",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"33D",
+    "route_long_name":"Portrane - St Stephens Green",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"15D",
+    "route_long_name":"Merrion Square - Whitechurch",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"27X",
+    "route_long_name":"Clare Hall - UCD Belfield",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"65A",
+    "route_long_name":"Route 65A Tallaght Sq - Blessington",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"51D",
+    "route_long_name":"Aston Quay - Clondalkin",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"44D",
+    "route_long_name":"Dundrum - OCS",
+    "total_cancelled_trips":6,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"185T",
+    "route_long_name":"Enniskerry - Bray",
+    "total_cancelled_trips":4,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"7D",
+    "route_long_name":"Dalkey - Mountjoy Square",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"42D",
+    "route_long_name":"Portmarnock - DCU",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"38D",
+    "route_long_name":"IBM Damastown via N3 - Burlington Rd",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"102A",
+    "route_long_name":"Swords - Sutton",
+    "total_cancelled_trips":4,
+    "cancelled_dates":45
+  },
+  {
+    "route_short_name":"69X",
+    "route_long_name":"Rathcoole - Hawkins St",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"32X",
+    "route_long_name":"UCD Belfield - Malahide",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"116",
+    "route_long_name":"Whitechurch - Parnell Square",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"70D",
+    "route_long_name":"Dunboyne - DCU",
+    "total_cancelled_trips":4,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"33E",
+    "route_long_name":"Lwr Abbey St - Portrane - Skerries",
+    "total_cancelled_trips":2,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"7E",
+    "route_long_name":"Mountjoy Square - Dalkey",
+    "total_cancelled_trips":2,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"118",
+    "route_long_name":"Kilternan - Eden Quay",
+    "total_cancelled_trips":2,
+    "cancelled_dates":4
+  },
+  {
+    "route_short_name":"77X",
+    "route_long_name":"Citywest - UCD Belfield",
+    "total_cancelled_trips":2,
+    "cancelled_dates":4
+  }
+]

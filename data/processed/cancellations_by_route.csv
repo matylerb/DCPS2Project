@@ -1,0 +1,161 @@
+route_short_name,route_long_name,total_cancelled_trips,cancelled_dates
+S4,Liffey Valley - UCD,856,45
+N6,Finglas Village - Naomh Barróg GAA,720,45
+73,Kilnamanagh Road - Griffith Avenue East,696,45
+S6,The Square - Blackrock Station,580,45
+W2,The Square - Liffey Valley SC,568,45
+E1,Ballywaltrim - Northwood,546,4
+E2,Dun Laoghaire - Harristown,502,4
+S8,Kingswood Avenue - Dun Laoghaire Stn,472,45
+15,Ballycullen Road - Clongriffin,466,4
+39A,Ongar - UCD Belfield,458,4
+N2,Clontarf Station - Heuston Train Stn,456,45
+N4,Blanchardstown - Point Village,404,4
+27,Jobstown - Clare Hall,396,4
+45A,Kilmacanogue - Dun Laoghaire,368,45
+W4,The Square - Blanchardstown SC,368,45
+14,Dundrum Luas Stn - Ardlea Rd (Beaumont),356,4
+80,Liffey Valley SC - Palmerston Park,352,4
+F1,The Square Tallaght - IKEA,342,4
+16,Ballinteer - Dublin Airport,340,4
+G1,Red Cow LUAS - Spencer Dock,330,4
+G2,Liffey Valley SC - Spencer Dock,326,4
+13,Grange Castle - Harristown,318,4
+4,Monkstown Avenue - Heuston Station,316,4
+1,Sandymount - O'Connell Street - Santry,316,4
+L2,"Sea Road, Newcastle - Bray Station",312,45
+130,Talbot Street - Castle Avenue,310,4
+F2,Charlestown SC - Rossmore,306,4
+102,Dublin Airport - Sutton DART,296,45
+L1,Newcastle Hospital - Bray Station,292,45
+L3,Glenbrook Park - The Nurseries,292,45
+F3,Charlestown SC - Limekiln Avenue,290,4
+H1,Baldoyle - Lower Abbey Street,290,4
+W6,Community College - The Square,288,45
+L26,Blackrock Station - Kilternan Village,288,45
+L25,Dun Laoghaire - Dundrum Town Centre,288,4
+L27,Dun Laoghaire Stn - Leopardstown Valley,288,45
+S2,Sean Moore Road - Heuston Station,284,4
+15B,Merrion Square - Stocking Avenue,264,4
+19,Parnell Square West - Dublin Airport,262,4
+41,Swords Manor - Lower Abbey Street,262,4
+33B,Swords - Portrane,244,45
+24,Merrion Square - Dublin Airport,236,4
+C2,Adamstown Stn - Sandymount,236,4
+122,Drimnagh - Ashington,236,4
+C1,Adamstown Stn - Sandymount,236,4
+82,Irishtown - Kiltipper,228,4
+37,Blanchardstown Shopping Centre - Wilton Terrace,226,4
+27B,Eden Quay - Harristown,222,4
+77A,Citywest - Ringsend,216,4
+23,Merrion Square - Charlestown SC,216,4
+33A,Dublin Airport - Balbriggan,204,45
+150,Rossmore - Hawkins Street,204,4
+15A,Merrion Square - Limekiln Avenue,202,4
+151,Foxborough (Balgaddy Rd) - Docklands (East Rd),200,4
+L12,Ballywaltrim - Bray Dart Station,192,4
+41C,Swords Manor Via River Valley - Lower Abbey St,188,4
+40D,Tyrrelstown - Parnell Street,187,4
+11,Phoenix Park - Sandyford Business District,178,4
+42,Sand's Hotel Portmarnock - Eden Quay,168,4
+120,Ashtown Station - Parnell St,168,4
+C4,Maynooth - Ringsend,166,4
+C3,Maynooth - Ringsend,166,4
+39,Ongar - Burlington Rd,158,4
+38,Damastown - Burlington Road,152,4
+238,Tyrrelstown - Mulhuddart,152,45
+74,Dundrum Luas - Eden Quay,150,4
+7,Brides Glen Luas - Mountjoy Square,148,4
+111,Brides Glen - Kilbogget Pk,148,45
+L54,River Forest - Red Cow Luas,146,4
+H2,Malahide - Lower Abbey Street,144,4
+L52,Blanchardstown SC - Adamstown Station,144,45
+L51,Liffey Valley SC - Adamstown Station,144,45
+H3,Howth Summit - Lower Abbey Street,144,4
+L15,Bray Station - Enniskerry,144,45
+7A,Loughlinstown - Mountjoy Sq,144,4
+L59,River Forest - Celbridge - Hazelhatch,144,4
+40E,Broombridge Luas - Tyrrelstown,141,4
+59,Dun Laoghaire - Killiney Hill Park,140,45
+L53,Liffey Valley - Adamstown Stn,140,4
+L14,Southern Cross Road - Palermo,140,4
+197,"Airside Ind. Estate, stop 7210 - Ashbourne Retail Pk, stop 101001",136,45
+270,Dunboyne - Blanchardstown,136,45
+114,Ticknock - Blackrock,136,45
+38A,Damastown via Navan Rd - Burlington Rd,130,4
+43,Talbot Street - Swords Business Park,126,4
+104,Clontarf Station - DCU (The Helix),120,45
+220,DCU (The Helix) - Lady's Well Road,120,45
+70,Dunboyne - Burlington Rd,114,4
+L55,Hollyville Lawn - Glenaulin,112,45
+27A,Blunden Drive - Eden Quay,112,4
+33,Balbriggan - Lower Abbey St,94,4
+60,Forbes Street - Tallaght,80,4
+6,Howth Dart Stn - Lower Abbey Street,80,4
+47,Poolbeg Street - Belarmine,80,4
+65B,Poolbeg Street - Citywest,78,4
+L58,River Forest - Castletown - Hazelhatch Stn,78,4
+52,Intel - Ringsend,76,4
+161,Rockbrook - Dundrum,76,45
+69,Rathcoole - Hawkins St,76,4
+44,Enniskerry - DCU,76,4
+68,Newcastle / Greenogue Business Pk - Hawkins St,70,4
+65,Poolbeg Street - Blessington/Ballymore,70,4
+L89,Broombridge Luas - Toberburr,68,4
+56A,Tallaght - Ringsend Rd,60,4
+53,Dublin Ferryport - Talbot St,60,4
+11B,Phoenix Park - Donnybrook,52,4
+99,Phoenix Park - Phoenix Park,38,4
+38B,Damastown via Ballycoolin Ind Est - Burlington Rd,26,4
+236,Blanchardstown - IBM Campus,24,45
+236A,Blanchardstown - IBM Campus,24,45
+44B,Glencullen - Dundrum Luas,20,4
+33X,Skerries - Custom House Quay / St Stephen Green,20,4
+X1,Kilcoole - Hawkins Street,20,4
+41X,Swords - UCD Belfield,20,4
+C5,Maynooth - Ringsend Night Service,20,4
+C6,Maynooth - Celbridge - Ringsend Night Service,20,4
+41B,Rolestown - Lower Abbey Street,18,4
+X28,Salesian College - Celbridge Main St - UCD,18,4
+X25,Maynooth - Easton Rd - UCD,18,4
+7B,Shankill - Mountjoy Square,18,4
+142,Portmarnock - UCD (Belfield),18,4
+P29,Adamstown Stn - Ringsend,16,4
+X27,Salesian College - Aghards Rd - UCD,16,4
+X2,Newcastle - Hawkins Street,16,4
+102P,Swords - Portmarnock,16,45
+16D,Airport - Beaumont Village - Ballinteer not,12,4
+X30,Dodsboro - UCD,12,4
+102T,Swords - Sutton,12,45
+X31,River Forest - UCD Belfield,12,4
+68A,Hawkins Street - Bulfin Road,10,4
+220A,DCU (The Helix) - Lady's Well Road,8,45
+220T,Collins Avenue West - Finglas Garda Stn,8,45
+45B,Kilmacanogue - Dun Laoghaire,8,45
+102C,Balgriffin - Sutton,8,45
+236T,Scoil Oilibheir - Tyrrelstown,8,45
+270T,Castaheany Estate - Castleknock Community College,8,45
+33T,Skerries - Donabate,8,45
+39X,Ongar - Burlington Road,8,4
+41D,Swords Business Park - Lwr Abbey St,8,4
+X32,Kildare Innovation Campus - UCD Belfield,8,4
+X26,Maynooth - Louisa Bridge - Leeson Street Lower,6,4
+33D,Portrane - St Stephens Green,6,4
+15D,Merrion Square - Whitechurch,6,4
+27X,Clare Hall - UCD Belfield,6,4
+65A,Route 65A Tallaght Sq - Blessington,6,4
+51D,Aston Quay - Clondalkin,6,4
+44D,Dundrum - OCS,6,4
+185T,Enniskerry - Bray,4,45
+7D,Dalkey - Mountjoy Square,4,4
+42D,Portmarnock - DCU,4,4
+38D,IBM Damastown via N3 - Burlington Rd,4,4
+102A,Swords - Sutton,4,45
+69X,Rathcoole - Hawkins St,4,4
+32X,UCD Belfield - Malahide,4,4
+116,Whitechurch - Parnell Square,4,4
+70D,Dunboyne - DCU,4,4
+33E,Lwr Abbey St - Portrane - Skerries,2,4
+7E,Mountjoy Square - Dalkey,2,4
+118,Kilternan - Eden Quay,2,4
+77X,Citywest - UCD Belfield,2,4
