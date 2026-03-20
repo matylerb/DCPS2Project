@@ -13,6 +13,8 @@ import json
 import csv
 import os
 import logging
+import requests
+from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -342,7 +344,7 @@ def calculate_expected_vs_cancelled(calendar_df, calendar_dates_df,trips_df, rou
     """
 
     # Get all dublin bus service_ids
-    dublin_routes = routes_df[routes_df['agency_df'].isin({'7778019', '7778002', '7778021'})]
+    dublin_routes = routes_df[routes_df['agency_id'].isin({'7778019', '7778002', '7778021'})]
     dublin_trips = trips_df[trips_df['route_id'].isin(dublin_routes['route_id'])]
 
     # count expected operating days per service
@@ -401,6 +403,163 @@ def cancellations_by_day_of_week(cancel_routes_df):
     )
     return by_day
 
+# ============================================================
+# SECTION 4: WEB SCRAPING
+# ============================================================
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Student Research Project - DATA2005 TU Dublin)'
+}
+
+def scrape_dublin_bus_news():
+    """
+    Scrape news articles abvout Dublin Bus cancellations
+    from Dublin Live to supplement GTFS data with real world evidence
+
+    Returns:
+        pd.DataFrame
+            Articles with columns: title, url, date, source
+    """
+    search_url = "https://www.dublinlive.ie/?s=dublin+bus+cancelled"
+
+    try:
+        response = requests.get(search_url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        articles = []
+        for article in soup.find_all('article'):
+            title_tag = article.find(['h2', 'h3', 'h4'])
+            link_tag = article.find('a', href=True)
+            time_tag = article.find('time')
+
+            if title_tag:
+                articles.append({
+                    'title': title_tag.get_text(strip=True),
+                    'url': link_tag['href'] if link_tag else None,
+                    'date': time_tag.get('datetime') if time_tag else None,
+                    'source': 'Dublin Live',
+                })
+
+        logger.info(f"Scraped {len(articles)} news articles about Dublin Bus")
+        return pd.DataFrame(articles)
+
+    except requests.RequestException as e:
+        logger.error(f"News scraping failed: {e}")
+        return pd.DataFrame(columns=['title', 'url', 'date', 'source'])
+    
+
+def scrape_met_eireann_weather():
+    """
+    Scrape weather observations from met eireann.
+    weather can help explain cancellations.
+
+    Returns:
+        pd.DataFrame
+            weather observations or empty DataFrame on failure
+    """
+
+    url = "https://www.met.ie/latest-reports/observations"
+
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        weather_data = []
+        tables = soup.find_all('table')
+
+        for table in tables:
+            header_list = [th.get_text(strip=True) for th in table.find_all('th')]
+            for row in table.find_all('tr'):
+                cells = row.find_all('td')
+                if cells:
+                    row_data = [cell.get_text(strip=True) for cell in cells]
+                    if header_list and len(row_data) == len(header_list):
+                        weather_data.append(dict(zip(header_list, row_data)))
+
+        logger.info(f"Scraped {len(weather_data)} weather observations from Met Éireann")
+        return pd.DataFrame(weather_data)
+
+    except requests.RequestException as e:
+        logger.error(f"Weather scraping failed: {e}")
+        return pd.DataFrame()    
+
+# ============================================================
+# SECTION 5: DATA EXPORT
+# ============================================================
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed')
+
+def export_to_csv(df, filename):
+    """
+    Export DataFrame to CSV format
+
+    Parameters:
+        df : pd.DataFrame
+            Data to export
+        filename : str
+            Output filename (saved to processed data directory)
+    """
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    filepath = os.path.join(OUTPUT_DIR, filename)
+    df.to_csv(filepath, index=False, encoding='utf-8')
+    logger.info(f"Exported CSV: {filename} ({len(df):,} rows)")
+
+
+def export_to_json(df, filename):
+    """
+    Export DataFrame to JSON format
+
+    Parameters:
+        df : pd.DataFrame
+        Data to export
+    filename : str
+        Output filename (saved to processed data directory)
+    """
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    filepath = os.path.join(OUTPUT_DIR, filename)
+
+    # Handle Date time columns
+    df_copy = df.copy()
+    for col in df_copy.select_dtypes(include=['datetime64']).columns:
+        df_copy[col] = df_copy[col].dt.strftime('%Y-%m-%d')
+
+    df_copy.to_json(filepath, orient='records', indent=2, force_ascii=False)
+    logger.info(f"Exported JSON: {filename} ({len(df):,} rows)")
+
+
+def export_all_results(route_rankings, day_patterns, cancel_routes):
+    """
+    Export all analysis results in both CSV and JSON formats.
+
+    Parameters:
+    route_rankings : pd.DataFrame
+        outes ranked by cancellation count.
+    day_patterns : pd.Series
+        Cancellations by day of week.
+    cancel_routes : pd.DataFrame
+        Full cancellation details.
+    """
+    # Route rankings
+    export_to_csv(route_rankings, 'cancellations_by_route.csv')
+    export_to_json(route_rankings, 'cancellations_by_route.json')
+
+    # Day of week patterns
+    day_df = day_patterns.reset_index()
+    day_df.columns = ['day', 'cancelled_trips']
+    export_to_csv(day_df, 'cancellations_by_day.csv')
+    export_to_json(day_df, 'cancellations_by_day.json')
+
+    # Full cancellation details
+    export_to_csv(cancel_routes, 'all_cancellation_details.csv')
+    export_to_json(cancel_routes, 'all_cancellation_details.json')
+
+    logger.info("All results exported to data/processed/")
+
+
+
 # Test
 
 if __name__ == '__main__':
@@ -421,6 +580,20 @@ if __name__ == '__main__':
     cancel_routes = map_cancellations_to_routes(cancellations, dublin_trips, dublin_routes)
     route_rankings = count_cancellations_by_route(cancel_routes)
     day_patterns = cancellations_by_day_of_week(cancel_routes)
+
+    # Web Scraping
+    print("\nScraping Dublin Bus news...")
+    news_df = scrape_dublin_bus_news()
+    print(f"Found {len(news_df)} articles")
+    if not news_df.empty:
+        print(news_df.head().to_string(index=False))
+
+    print("\nScraping Met Éireann weather...")
+    weather_df = scrape_met_eireann_weather()
+    print(f"Found {len(weather_df)} weather observations")
+
+    # Export results
+    export_all_results(route_rankings, day_patterns, cancel_routes)
 
     # Print results
     print("\nTop 10 Most Cancelled Routes:")
