@@ -1,0 +1,30 @@
+[
+  {
+    "day":"Monday",
+    "cancelled_trips":8099
+  },
+  {
+    "day":"Tuesday",
+    "cancelled_trips":10456
+  },
+  {
+    "day":"Wednesday",
+    "cancelled_trips":2359
+  },
+  {
+    "day":"Thursday",
+    "cancelled_trips":2359
+  },
+  {
+    "day":"Friday",
+    "cancelled_trips":2359
+  },
+  {
+    "day":"Saturday",
+    "cancelled_trips":0
+  },
+  {
+    "day":"Sunday",
+    "cancelled_trips":0
+  }
+]
