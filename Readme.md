@@ -62,8 +62,7 @@ DCPS2Project/
 ├── src/
 │   ├── data_engineering.py           # Data loading, cleaning, analysis, export
 │   ├── ananlysis.py                  # Statistical analysis
-│   ├── visualisation.py              # Data visualisation
-│   └── reporting.py                  # Report generation from processed data
+│   └── visualisation.py              # Data visualisation
 ├── outputs/
 │   ├── figures/                      # Charts and plots
 │   └── reports/                      # Written reports
@@ -138,27 +137,6 @@ The pipeline (data_engineering.py) is organised into 5 sections:
 - Dual export — all results in both CSV and JSON formats
 - PEP 8 compliant code style
 
-## Reporting
-
-The reporting pipeline reads the processed CSV outputs and generates a structured written report.
-
-### Generate the report
-```bash
-cd src
-python reporting.py
-```
-
-This produces two files in `outputs/reports/`:
-- `report.md` — full analysis report with tables, findings, and references to all visualisations
-- `executive_summary.md` — one-page summary of key findings
-
-### Reports
-
-| File | Description |
-|------|-------------|
-| outputs/reports/report.md | Full report — dataset overview, findings by day and route, agency breakdown, conclusion |
-| outputs/reports/executive_summary.md | Short summary — key numbers and findings on one page |
-
 ## Libraries Used
 
 - numpy — Vectorised numerical operations
@@ -172,3 +150,4 @@ This produces two files in `outputs/reports/`:
 ## License
 
 This project is for an academic purpose as part of the DATA 2005 DataCentricProgramming module in TUDublin
+
