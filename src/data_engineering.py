@@ -412,34 +412,29 @@ HEADERS = {
 
 def scrape_dublin_bus_news():
     """
-    Scrape news articles abvout Dublin Bus cancellations
-    from Dublin Live to supplement GTFS data with real world evidence
+    Scrape news articles about Dublin Bus cancellations via Google News RSS.
+    Uses RSS feed to avoid JS rendering requirements.
 
     Returns:
         pd.DataFrame
             Articles with columns: title, url, date, source
     """
-    search_url = "https://www.dublinlive.ie/?s=dublin+bus+cancelled"
+    search_url = "https://news.google.com/rss/search?q=dublin+bus+cancelled+site:dublinlive.ie&hl=en-IE&gl=IE"
 
     try:
         response = requests.get(search_url, headers=HEADERS, timeout=15)
         response.raise_for_status()
 
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, 'xml')
 
         articles = []
-        for article in soup.find_all('article'):
-            title_tag = article.find(['h2', 'h3', 'h4'])
-            link_tag = article.find('a', href=True)
-            time_tag = article.find('time')
-
-            if title_tag:
-                articles.append({
-                    'title': title_tag.get_text(strip=True),
-                    'url': link_tag['href'] if link_tag else None,
-                    'date': time_tag.get('datetime') if time_tag else None,
-                    'source': 'Dublin Live',
-                })
+        for item in soup.find_all('item'):
+            articles.append({
+                'title': item.title.text if item.title else None,
+                'url': item.link.text if item.link else None,
+                'date': item.pubDate.text if item.pubDate else None,
+                'source': 'Dublin Live',
+            })
 
         logger.info(f"Scraped {len(articles)} news articles about Dublin Bus")
         return pd.DataFrame(articles)
@@ -447,7 +442,7 @@ def scrape_dublin_bus_news():
     except requests.RequestException as e:
         logger.error(f"News scraping failed: {e}")
         return pd.DataFrame(columns=['title', 'url', 'date', 'source'])
-    
+
 
 def scrape_met_eireann_weather():
     """
@@ -484,7 +479,7 @@ def scrape_met_eireann_weather():
 
     except requests.RequestException as e:
         logger.error(f"Weather scraping failed: {e}")
-        return pd.DataFrame()    
+        return pd.DataFrame()
 
 # ============================================================
 # SECTION 5: DATA EXPORT
