@@ -45,9 +45,27 @@ def load_cancellation_data():
     tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]
         (details, by_day, by_route)
     """
-    details = pd.read_csv(ALL_CANCELLATIONS_FILE, parse_dates=["date"])
-    by_day = pd.read_csv(BY_DAY_FILE)
-    by_route = pd.read_csv(BY_ROUTE_FILE)
+    try:
+        details = pd.read_csv(ALL_CANCELLATIONS_FILE, parse_dates=["date"])
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Cancellation details file not found: {ALL_CANCELLATIONS_FILE}")
+    except Exception as e:
+        raise RuntimeError(f"Failed to load {ALL_CANCELLATIONS_FILE}: {e}") from e
+
+    try:
+        by_day = pd.read_csv(BY_DAY_FILE)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Cancellations by day file not found: {BY_DAY_FILE}")
+    except Exception as e:
+        raise RuntimeError(f"Failed to load {BY_DAY_FILE}: {e}") from e
+
+    try:
+        by_route = pd.read_csv(BY_ROUTE_FILE)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Cancellations by route file not found: {BY_ROUTE_FILE}")
+    except Exception as e:
+        raise RuntimeError(f"Failed to load {BY_ROUTE_FILE}: {e}") from e
+
     return details, by_day, by_route
 
 
@@ -708,4 +726,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (FileNotFoundError, RuntimeError) as e:
+        print(f"Error: {e}")
+        raise SystemExit(1)
