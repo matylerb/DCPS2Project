@@ -1,7 +1,4 @@
 """
-data_analysis.py
-===============
-
 Program Description: A detailed analysis module for DCPS2 transit cancellation data, applying a wide range of data analysis techniques and principles.
 Author: Tyler Brady
 ===============
