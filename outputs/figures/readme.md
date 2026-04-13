@@ -18,3 +18,13 @@ while S4, N6, and W2 show consistent cancellations Tuesday–Friday.
 ## 04 — Top 20 Most Cancelled Routes
 Horizontal bar chart ranking the 20 routes with the most total cancellations.
 Route S4 leads with 856 cancelled trips, followed by N6 (720) and 73 (696).
+
+## 05 — Strike vs Non-Strike Day Cancellations
+Bar chart comparing total cancellations on strike days (Monday & Tuesday) versus
+non-strike weekdays (Wednesday–Friday). Strike days account for the large majority
+of all cancellations, clearly showing the direct impact of the industrial action.
+
+## 06 — Cumulative Cancellations Over Time
+Line chart showing the running total of cancellations building up across the full
+study period. The steep jumps visible on strike days show how quickly the total
+climbed, with the curve flattening out on normal weekdays between strike action.
