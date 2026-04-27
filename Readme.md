@@ -1,7 +1,9 @@
 # Dublin Bus Cancellation Analysis - Data Engineering
 
 **Course:** Data Centric Programming
+
 **Domain:** Transportation & Mobility
+
 **Thesis:** Frequent cancellation and scheduling of Dublin Buses that never show up ("ghost buses")
 
 
