@@ -161,6 +161,16 @@ This produces two files in `outputs/reports/`:
 | outputs/reports/report.md | Full report — dataset overview, findings by day and route, agency breakdown, conclusion |
 | outputs/reports/executive_summary.md | Short summary — key numbers and findings on one page |
 
+### Exploratory Data Analysis (EDA)
+
+Interactive EDA reports were generated using `ydata_profiling` in the `notebooks/exploration.ipynb` notebook. Reports are hosted online and also saved in `outputs/reports/`.
+
+| Dataset | Hosted Report |
+|---------|---------------|
+| All Cancellation Details | [all_cancellation_details_report.html](https://matylerb.ie/all_cancellation_details_report.html) |
+| Cancellations by Day | [cancellations_by_day_report.html](https://matylerb.ie/cancellations_by_day_report.html) |
+| Cancellations by Route | [cancellations_by_route_report.html](https://matylerb.ie/cancellations_by_route_report.html) |
+
 ## Libraries Used
 
 - numpy — Vectorised numerical operations
