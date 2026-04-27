@@ -2,7 +2,7 @@
 
 **Course:** Data Centric Programming
 **Domain:** Transportation & Mobility
-**Thesis:** Frquent cancellation and scheduling of Dublin Busses that never show up ("ghost busses)
+**Thesis:** Frequent cancellation and scheduling of Dublin Buses that never show up ("ghost buses")
 
 
 ## Team Members
@@ -20,7 +20,7 @@ This project analyses GTFS (General Transit Feed Specification) data from Irelan
 
 ## Key findings
 
-- **Route S4 (Liffey Valley – UCD)** has the most cancellations with 856 cancelled trips
+- **Route S4 (Liffey Valley - UCD)** has the most cancellations with 856 cancelled trips
 - **Tuesdays** have the highest cancellation count (10,456 affected trips)
 - **Zero weekend cancellations** — all cancellations affect weekday commuters
 - **172 Dublin Bus routes** analysed across 86,535 trips
@@ -62,11 +62,12 @@ DCPS2Project/
 ├── src/
 │   ├── data_engineering.py           # Data loading, cleaning, analysis, export
 │   ├── ananlysis.py                  # Statistical analysis
-│   └── visualisation.py              # Data visualisation
+│   ├── visualisation.py              # Data visualisation
+│   └── reporting.py                  # Report generation from processed data
 ├── outputs/
 │   ├── figures/                      # Charts and plots
 │   └── reports/                      # Written reports
-├── notebooks/                      
+├── notebooks/
 ├── requirements.txt
 └── README.md
 ```
@@ -137,6 +138,27 @@ The pipeline (data_engineering.py) is organised into 5 sections:
 - Dual export — all results in both CSV and JSON formats
 - PEP 8 compliant code style
 
+## Reporting
+
+The reporting pipeline reads the processed CSV outputs and generates a structured written report.
+
+### Generate the report
+```bash
+cd src
+python reporting.py
+```
+
+This produces two files in `outputs/reports/`:
+- `report.md` — full analysis report with tables, findings, and references to all visualisations
+- `executive_summary.md` — one-page summary of key findings
+
+### Reports
+
+| File | Description |
+|------|-------------|
+| outputs/reports/report.md | Full report — dataset overview, findings by day and route, agency breakdown, conclusion |
+| outputs/reports/executive_summary.md | Short summary — key numbers and findings on one page |
+
 ## Libraries Used
 
 - numpy — Vectorised numerical operations
@@ -150,4 +172,3 @@ The pipeline (data_engineering.py) is organised into 5 sections:
 ## License
 
 This project is for an academic purpose as part of the DATA 2005 DataCentricProgramming module in TUDublin
-
