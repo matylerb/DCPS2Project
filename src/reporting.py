@@ -99,6 +99,7 @@ def agency_breakdown(details):
     }
     grouped = details.groupby("agency_id")["trip_id"].nunique().reset_index()
     grouped.columns = ["agency_id", "cancelled_trips"]
+    grouped["agency_id"] = grouped["agency_id"].astype(str)
     grouped["agency_name"] = grouped["agency_id"].map(agency_map).fillna(grouped["agency_id"])
     grouped = grouped.sort_values("cancelled_trips", ascending=False)
 

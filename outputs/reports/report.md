@@ -124,8 +124,8 @@ The three Dublin Bus operators contribute differently to the cancellation total:
 
 | Agency | Cancelled Trips | % of Total |
 |--------|----------------|------------|
-| 7778019 | 16,196 | 63.2% |
-| 7778021 | 9,436 | 36.8% |
+| Bus Átha Cliath (Dublin Bus) | 16,196 | 63.2% |
+| Go-Ahead Ireland | 9,436 | 36.8% |
 
 ---
 
