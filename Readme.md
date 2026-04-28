@@ -58,6 +58,7 @@ This project analyses GTFS (General Transit Feed Specification) data from Irelan
 
 ```
 DCPS2Project/
+├── main.py                           # Entry point — runs the full pipeline
 ├── data/
 │   ├── raw/                          # Original GTFS files
 │   └── processed/                    # Exported analysis results
@@ -91,13 +92,12 @@ pip install -r requirements.txt
 
 Place all GTFS .txt files in data/raw/. The stop_times_dublin_bus.txt file is a pre-filtered version containing only Dublin Bus stop times (~200MB, 4.35M rows).
 
-### 4. Run the data engineering pipeline
+### 4. Run the pipeline
 ```bash
-cd src
-python data_engineering.py
+python main.py
 ```
 
-This runs the full pipeline: Load -> Clean -> Validate -> Analyse -> Scrape -> Export
+This runs the full pipeline: Data Engineering -> Analysis -> Visualisation -> Reporting
 
 ## Data Engineering Pipeline
 
